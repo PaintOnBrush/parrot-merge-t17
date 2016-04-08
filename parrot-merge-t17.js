@@ -1,13 +1,3 @@
-// ==UserScript==
-// @name         New Userscript
-// @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  try to take over the world!
-// @author       You
-// @match        http://*/*
-// @grant        none
-// ==/UserScript==
-
   (function(){
         var easterEgg_partyNoMore = localStorage.getItem('easterEgg_partyNoMore'),
             easterEgg_assetsCached = localStorage.getItem('easterEgg_assetsCached');
